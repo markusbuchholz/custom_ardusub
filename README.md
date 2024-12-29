@@ -1,6 +1,9 @@
 
 # Build custom ArduSub (BlueROV2)
 
+![image](https://github.com/user-attachments/assets/96882ac9-6d7c-4a48-b79c-d9a91fe7d8ce)
+
+
 ## Introduction
 
 This repository offers the environment (in Docker) for building Ardusub. <br>
