@@ -31,8 +31,6 @@ git submodule update --init --recursive
 
 ```
 
----
-
  ## Build
 
  Note. Make scripts executable: ```chmod +x build.sh run.sh```
@@ -49,9 +47,9 @@ sudo ./build.sh
 
  Notes:
 
- - Adjust to your own specific in run.sh ```VOLUME_SOURCE="/home/markus/custom_ardusub/ardupilot"```. <br>
+ - Adjust to your own specific in ```run.sh``` : ```VOLUME_SOURCE="/home/markus/custom_ardusub/ardupilot"```. <br>
  - ```Waf``` is a global build system for ArduPilot repository.<br>
- - Note. sudo password: ```ardusub```.<br>
+ - Note. sudo password in Docker container is : ```ardusub```.<br>
  - The firmware file will be created at ```/ardupilot/build/Pixhawk1/bin/```.<br>
 
 
@@ -90,13 +88,11 @@ sudo chown -R devuser:devuser /home/devuser/ardupilot
 ```
 
 
+## Useful links
 
-
-
-## Useful information
-
+ - [Custom Firmware Builder](https://custom.ardupilot.org/)
  - [how-to-control-thrusters-independently](https://discuss.bluerobotics.com/t/how-to-control-thrusters-independently/9870)
  - [custom configuration](https://www.ardusub.com/developers/developers.html#making-a-custom-configuration)
  - [Ardupilot source](https://github.com/ArduPilot/ardupilot)
  - [PWM motor configuration in BlueOS](https://github.com/bluerobotics/BlueOS/blob/master/core/frontend/src/components/vehiclesetup/PwmSetup.vue)
- - [Internal presentation](https://docs.google.com/presentation/d/1L9FzHzYUFvdV-qV7_xJEBZ75VjJyGAZlXEuWe-whuMk/edit?usp=sharing)
+ - [My BlueRobotics architecture presentation](https://docs.google.com/presentation/d/1L9FzHzYUFvdV-qV7_xJEBZ75VjJyGAZlXEuWe-whuMk/edit#slide=id.g2de1e202d73_0_4)
